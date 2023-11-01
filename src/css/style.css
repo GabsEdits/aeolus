@@ -1,0 +1,323 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+header {
+  background-color: var(--color-background-header);
+  color: var(--color-text);
+  border-bottom: solid var(--color-border) 1px;
+  position: sticky;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  text-align: center;
+  height: 50px;
+  padding: 0px 20px;
+  top: 0;
+  max-width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #title {
+  color: var(--color-text);
+  text-align: left;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+header p {
+  flex-grow: 10;
+  text-align: center;
+}
+
+header nav {
+  text-align: right;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: var(--color-text);
+  transition: text-decoration 300ms, color 300ms;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline 1px var(--color-text-dim);
+}
+
+nav ul li a:active {
+  color: var(--color-text);
+  text-decoration: underline 1px var(--color-text-dim);
+}
+
+main h1 {
+  color: #181818;
+  font-family: "Inter";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 94.523%;
+  text-align: left;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 800px;
+  color: #181818;
+  background-color: #ebcf91;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+#copyright {
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--color-text-dim);
+  margin-top: 0.3rem;
+}
+
+#copyright a {
+  color: var(--color-text-dim);
+  text-decoration: underline var(--color-text-dim) 1.4px;
+}
+
+footer {
+  color: var(--color-text);
+  background-color: var(--color-background-soft);
+  padding: 20px;
+  height: 100px;
+}
+
+#owner {
+  font-weight: 600;
+  text-align: center;
+  content: "Made with ❤️ by <b>Gabs</b>";
+  transition: all 2s !important;
+}
+
+#owner:hover:after {
+  content: " in 🇲🇩";
+}
+
+#space {
+  margin: 0 20% !important;
+  color: var(--color-text);
+}
+
+#open {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+#open .svg-open {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+#svg-secure {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+#svg-open {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.title-space {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+#open h1 {
+  margin-bottom: -2px;
+}
+
+#open p {
+  font-size: 16px;
+}
+
+#secure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#secure .content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+#secure {
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+#secure h1 {
+  margin-bottom: -2px;
+  margin-top: 140px;
+}
+
+#secure p {
+  font-size: 16px;
+}
+
+#secure sub {
+  font-size: 12px;
+  color: var(--color-text-dim);
+}
+
+#manageable h1 {
+  margin-bottom: -10px;
+  margin-top: 140px;
+}
+
+#manageable .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#manageable {
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+#options .background {
+  background-image: url(/assets/options.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 380px;
+}
+
+#options .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#options .text p {
+  margin-top: -30px;
+  width: 500px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  border-radius: 20px;
+}
+
+.card h3 {
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 22px;
+}
+
+.card:first-child h3 {
+  font-size: 17px;
+}
+
+.card {
+  background-color: var(--color-background-soft);
+  padding: 20px;
+  text-align: center;
+  height: 120px;
+  transition: background-color 300ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: var(--color-background-mute);
+}
+
+.card:active {
+  background-color: var(--color-background-header);
+}
+
+.card:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.card:last-child {
+  border-top-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
+}
+
+#used-by h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#coming-soon {
+  font-weight: 900;
+  text-align: center;
+  color: var(--color-text);
+  font-family: "Noto Sans Mono", monospace;
+}

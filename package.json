@@ -1,0 +1,32 @@
+{
+  "name": "website-aeolus",
+  "version": "0.5.0",
+  "description": "The Website for Aeolus",
+  "private": "true",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabsEdits/aeolus.git"
+  },
+  "author": "Gabriel Cozma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabsEdits/aeolus/issues"
+  },
+  "homepage": "https://github.com/GabsEdits/aeolus#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-qrcode": "^0.2.2"
+  },
+  "dependencies": {
+    "@types/aos": "^3.0.6",
+    "aos": "^2.3.4"
+  }
+}
