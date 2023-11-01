@@ -1,4 +1,4 @@
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <main>
 <h1>Open <br><i>&</i> Easy</h1>
 </main>
@@ -76,4 +76,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <p id="copyright">&copy; 2023 Gabs/Gabriel Cozma. All rights reserved.</p>
 <p id="copyright">&#127279; Website <a href="https://github.com/GabsEdits/aeolus">code</a> under <a href="https://opensource.org/license/mit/">MIT License</a> &middot; Website content under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4</a>.</p>
 </footer>
-  `
+  `;

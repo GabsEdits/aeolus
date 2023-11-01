@@ -277,7 +277,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   text-decoration: none;
 }
 
@@ -295,7 +295,7 @@ footer {
 }
 
 .card:last-child {
-  border-top-right-radius: 15px; 
+  border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
