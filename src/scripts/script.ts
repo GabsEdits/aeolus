@@ -55,17 +55,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const svgOpen: HTMLImageElement | null = document.getElementById('svg-open') as HTMLImageElement;
     if (svgOpen) {
-        svgOpen.src = prefersDarkMode ? 'aeolus/assets/open-dark.svg' : 'aeolus/assets/open.svg';
+        svgOpen.src = prefersDarkMode ? 'https://gabs.eu.org/aeolus/assets/open-dark.svg' : 'https://gabs.eu.org/aeolus/assets/open.svg';
     }
 
     const svgSecure: HTMLImageElement | null = document.getElementById('svg-secure') as HTMLImageElement;
     if (svgSecure) {
-        svgSecure.src = prefersDarkMode ? 'aeolus/assets/secure-dark.svg' : 'aeolus/assets/secure.svg';
+        svgSecure.src = prefersDarkMode ? 'https://gabs.eu.org/aeolus/assets/secure-dark.svg' : 'https://gabs.eu.org/aeolus/assets/secure.svg';
     }
 
     const svgManageable: HTMLImageElement | null = document.getElementById('svg-manageable') as HTMLImageElement;
     if (svgManageable) {
-        svgManageable.src = prefersDarkMode ? 'aeolus/assets/manageable-dark.svg' : 'aeolus/assets/manageable.svg';
+        svgManageable.src = prefersDarkMode ? 'https://gabs.eu.org/aeolus/assets/manageable-dark.svg' : 'https://gabs.eu.org/aeolus/assets/manageable.svg';
     }
 });
 
