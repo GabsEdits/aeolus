@@ -69,7 +69,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </section>
 </section>
 <br><br><br><br><br><br><br><br><br>
-<h1 id="coming-soon">Coming Soon_</h1>
+<h1 id="coming-soon" data-aos="ease-in-quad" data-aos-delay="600">Coming Soon_</h1>
 <br><br><br><br><br><br><br><br><br>
 <footer>
 <p id="owner">Made with ❤️ by <b>Gabs</b></p>

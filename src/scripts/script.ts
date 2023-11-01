@@ -5,16 +5,16 @@ const materialColors: string[] = [
     '#ebcf91', // Pale Yellow
     '#fb888a', // Light Yellow
     '#f58b51', // Light Orange
-    '#f8961e', // Light Orange
-    '#f9844a', // Light Orange
-    '#f9c74f', // Light Yellow
+    '#f8961e', // Light Orange Shade 1
+    '#f9844a', // Light Orange Shade 2
+    '#f9c74f', // Light Yellow Shade 1
     '#90be6d', // Light Green
     '#b2dfdb', // Light Teal
-    '#c8e6c9', // Light Green
+    '#c8e6c9', // Light Green Shade 1
     '#dcedc8', // Light Lime Green
     '#f0f4c3', // Light Yellow Green
-    '#fff59d', // Light Yellow
-    '#ffe0b2', // Light Orange
+    '#fff59d', // Light Yellow Shade 2
+    '#ffe0b2', // Light Orange Shade 3
     '#ffcc80', // Light Peach
     '#ffab91', // Light Salmon
     '#bcaaa4', // Light Brown
@@ -55,17 +55,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const svgOpen: HTMLImageElement | null = document.getElementById('svg-open') as HTMLImageElement;
     if (svgOpen) {
-        svgOpen.src = prefersDarkMode ? '/assets/open-dark.svg' : '/assets/open.svg';
+        svgOpen.src = prefersDarkMode ? 'aeolus/assets/open-dark.svg' : 'aeolus/assets/open.svg';
     }
 
     const svgSecure: HTMLImageElement | null = document.getElementById('svg-secure') as HTMLImageElement;
     if (svgSecure) {
-        svgSecure.src = prefersDarkMode ? '/assets/secure-dark.svg' : '/assets/secure.svg';
+        svgSecure.src = prefersDarkMode ? 'aeolus/assets/secure-dark.svg' : 'aeolus/assets/secure.svg';
     }
 
     const svgManageable: HTMLImageElement | null = document.getElementById('svg-manageable') as HTMLImageElement;
     if (svgManageable) {
-        svgManageable.src = prefersDarkMode ? '/assets/manageable-dark.svg' : '/assets/manageable.svg';
+        svgManageable.src = prefersDarkMode ? 'aeolus/assets/manageable-dark.svg' : 'aeolus/assets/manageable.svg';
     }
 });
 

@@ -1,6 +1,6 @@
 {
   "name": "website-aeolus",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "The Website for Aeolus",
   "private": "true",
   "main": "main.ts",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/GabsEdits/aeolus.git"
   },
   "author": "Gabriel Cozma",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/GabsEdits/aeolus/issues"
   },

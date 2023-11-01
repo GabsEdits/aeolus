@@ -1,18 +1,27 @@
 @import url(style.css);
 @import url(color.css);
 @import url(mobile.css);
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@900&display=swap');
+/* Temp */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@900&display=swap");
 
-html {
-    scroll-behavior: smooth;
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
   }
-
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
