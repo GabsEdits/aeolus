@@ -8,7 +8,7 @@
 <br>Build with Vite & TypeScript
 </p>
 
-# Project s
+# Project Overview
 ## Development
 This website has been developed using Vite & TypeScript. The Framework's structure follows the <a href="https://semantichtml.github.io">Semantic HTML Convention</a> and an Component-Based Architecture. If you want to contribute to it and clone it to your local mashine, then just run the following:
 
